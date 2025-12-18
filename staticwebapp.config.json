@@ -1,0 +1,8 @@
+{
+    "routes": [
+        {
+            "route": "/api/*",
+            "rewrite": "https://anybus-bus-booking-dev-cus-fun.azurewebsites.net/api/*"
+        }
+    ]
+}
