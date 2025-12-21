@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_DEFAULT_REGION = 'us-east-1'
-        S3_BUCKET = 'bus-booking-portal-fronend-s3'
+        S3_BUCKET = 'bus-booking-portal-dev-use-s3-bucket'
     }
 
     stages {
