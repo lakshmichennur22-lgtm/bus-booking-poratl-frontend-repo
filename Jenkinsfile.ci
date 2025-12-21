@@ -34,10 +34,10 @@ pipeline {
 
     post {
         success {
-            echo '🚀 CD Deployment successful'
+            echo '🚀 CI Deployment successful'
         }
         failure {
-            echo '❌ CD Deployment failed'
+            echo '❌ CI Deployment failed'
         }
 
         }
