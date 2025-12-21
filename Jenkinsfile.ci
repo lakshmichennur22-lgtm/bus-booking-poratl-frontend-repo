@@ -12,6 +12,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 sh '''
+                    cd bus-booking-portal-frontend-repo
                     npm install
                 '''
             }
@@ -20,6 +21,7 @@ pipeline {
         stage('Build Vite App') {
             steps {
                 sh '''
+                    cd bus-booking-portal-frontend-repo
                     npm run build
                 '''
             }
